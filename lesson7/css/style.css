@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.content {
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: Lato;
+	line-height: 1.6;
+}
+
+header {
+	font-weight: 900;
+	font-size: 45px;
+	margin-bottom: 45px;
+}
+
+.image {
+	max-width: 100%;
+	margin-bottom: 62px;
+}
+
+.box1 {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+
+.box2 * {
+	margin-bottom: 20px;
+}
+
+.box2 {
+	margin-bottom: 48px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.icon {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 24px;
+	background: url('../img/braces.png') 0 0 no-repeat;
+	padding-left: 58px;
+}
+
+.box3 {
+	margin-bottom: 48px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+ul {
+	margin-bottom: 24px;
+}
+
+li {
+	background: url('../img/Vector.png') 0 0 no-repeat;
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+
+.box {
+	margin-bottom: 50px;
+}
+
+.practice {
+	padding: 20px;
+	background: rgb(237, 255, 155);
+}
+
+[class *="one"] {
+	line-height: 10;
+	background: url('../img/rain.jpg') 0 0 repeat;
+	margin-bottom: 30px;
+}
+
+[class *="gradient"] {
+	background-image: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	margin-bottom: 20px;
+}
+
+[class *="repeat"] {
+	background-image: url("../img/braces.png");
+	background-repeat: repeat-y;
+	/* repeat-x по горизонталі*/
+}
+
+.repeat-no {
+	background-image: url("../img/Vector.png");
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.position {
+	line-height: 5;
+	background-image: url("../img/Kiss.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	margin-bottom: 20px;
+}
+
+.attachment {
+	line-height: 20;
+	background-image: url("../img/rain.jpg");
+	background-attachment: fixed;
+	margin-bottom: 20px;
+}
+
+span {
+	display: block;
+	height: 1000px;
+	background: url("../img/hero-img_copy.jpg") no-repeat right top / 500px, url("../img/Kiss.jpg") no-repeat 10px 10px / 300px, url("../img/Kiss.jpg") no-repeat 50px 40px / 500px, gold;
+}
