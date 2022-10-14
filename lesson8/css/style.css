@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.about_curator,
+.about_course {
+	max-width: 590px;
+	margin: 0 auto;
+	font-family: Lato;
+}
+
+h1.subject {
+	font-weight: 900;
+	font-size: 46px;
+	margin-bottom: 40px;
+	line-height: 59.8px;
+}
+
+.text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	margin-bottom: 48px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+	margin-bottom: 24px;
+}
+
+ul {
+	margin-bottom: 32px;
+}
+
+li::before {
+	background: url("../img/Vector.png") 10px 0px no-repeat;
+	content: '';
+	padding-left: 32px;
+	margin-bottom: 4px;
+	line-height: 25.6px;
+}
+
+.course li:first-child {
+	text-decoration: underline;
+}
+
+.course li:nth-child(even):hover {
+	color: chartreuse;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+
+h1.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	margin-bottom: 16px;
+}
+
+h3.tiny {
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.courator_list {
+	margin-bottom: 4px;
+}
+
+.link:active {
+	text-decoration: underline;
+}
+
+.about_curator li:first-of-type {
+	color: blueviolet;
+}
+
+.practice {
+	margin-bottom: 50px;
+}
+
+.before::before {
+	content: 'practice';
+	color: chocolate;
+}
+
+.before::after {
+	content: 'practice';
+	color: chocolate;
+}
+
+span::before {
+	content: '?';
+}
+
+span::after {
+	content: '?';
+}
+
+span {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.hover ul {
+	display: none;
+}
+
+.hover li:hover ul {
+	display: block;
+}
